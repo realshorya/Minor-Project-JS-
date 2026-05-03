@@ -45,7 +45,6 @@ An interactive and responsive **Simon Says memory game** built using **HTML, CSS
 │── style.css
 │── script.js
 │── README.md
-│── screenshots/
 ```
 # ⚙️ Installation & Setup
 
