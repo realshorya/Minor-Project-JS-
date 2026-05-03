@@ -66,4 +66,5 @@ Contributions are welcome!
 # 👨‍💻 Author
 
 **Shorya**
+
 GitHub: `https://github.com/realshorya`
