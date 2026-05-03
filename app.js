@@ -5,9 +5,12 @@ let start=false;
 let level=0;
 let highest_score=0;
 let h2=document.querySelector('h2');
-document.addEventListener("keypress",function(){
+let startbtn=document.querySelector(".start");
+startbtn.addEventListener("click",function(){
     if(start==false){
         start=true;
+        document.querySelector(".btn-container").classList.remove("disabled");
+        startbtn.innerHTML=`Remember the pattern`;
         levelup();
     }
 });
@@ -45,7 +48,9 @@ function checkans(idx){
             setTimeout(levelup,1000);
         }
     }else{
-        h2.innerHTML=`Game Over!! Press Any Key To Restart<br>Your Score Was:${level-1}<br> Highest Score was:${highest_score-1}`;
+        h2.innerHTML=`Game Over!! Press Start button To Restart<br>Your Score Was:${level-1}<br> Highest Score was:${highest_score-1}`;
+        document.querySelector(".btn-container").classList.add("disabled");
+        startbtn.innerHTML=`Start again`;
         document.querySelector('body').style.backgroundColor="red";
         setTimeout(function(){
             document.querySelector('body').style.backgroundColor="white";
