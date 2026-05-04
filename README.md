@@ -40,11 +40,16 @@ An interactive and responsive **Simon Says memory game** built using **HTML, CSS
 
 # 📂 Project Structure
 ```bash
-📁 Simon-Says-Game
+📁 SIMON-SAYS-GAME/
 │── index.html
 │── style.css
-│── script.js
+│── app.js
 │── README.md
+│
+├── screenshots/
+│   ├── preview1.png
+│   ├── preview2.png
+│   └── preview3.png
 ```
 # ⚙️ Installation & Setup
 
@@ -54,6 +59,12 @@ git clone `https://github.com/realshorya/Simon-Says-Game.git`
 `cd Simon-Says-Game`
 3. Run the project:
 Open `index.html` in your browser
+
+## 📸 Preview
+
+<img src="screenshots/preview1.png" width="100%">
+<img src="screenshots/preview2.png" width="100%">
+<img src="screenshots/preview3.png" width="100%">
 
 # 🤝 Contributing
 
